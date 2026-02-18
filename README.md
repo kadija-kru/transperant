@@ -23,11 +23,11 @@ This solution provides an Application Customizer extension that dynamically inje
 
 - **Node.js**: **REQUIRED** - Version 16.13.0+ or 18.17.1+ (SPFx 1.18.2 enforces this)
   - ⚠️ **IMPORTANT**: Node.js v19+ will NOT work. You must use Node 16 or 18.
-  - Recommended: Use Node.js 18.17.1 (specified in `.nvmrc`)
+  - Recommended: Use Node.js 18.20.8 (specified in `.nvmrc`)
   - Use [nvm](https://github.com/nvm-sh/nvm) to manage Node versions:
     ```bash
-    nvm install 18.17.1
-    nvm use 18.17.1
+    nvm install 18.20.8
+    nvm use 18.20.8
     ```
 - **SharePoint Online**: Target environment
 - **Global installations** (after setting correct Node version):
@@ -160,7 +160,7 @@ To customize which elements become transparent, edit the `_injectCustomStyles()`
   nvm install
   nvm use
   ```
-- Alternatively, download Node 18.17.1 from [nodejs.org](https://nodejs.org/)
+- Alternatively, download Node 18.20.8 from [nodejs.org](https://nodejs.org/)
 
 ### Issue: Styles Not Applying
 
