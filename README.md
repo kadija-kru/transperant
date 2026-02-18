@@ -21,9 +21,16 @@ This solution provides an Application Customizer extension that dynamically inje
 
 ## Prerequisites
 
-- **Node.js**: Version 16.13.0+ or 18.17.1+ (required for SPFx 1.18.2)
+- **Node.js**: **REQUIRED** - Version 16.13.0+ or 18.17.1+ (SPFx 1.18.2 enforces this)
+  - ⚠️ **IMPORTANT**: Node.js v19+ will NOT work. You must use Node 16 or 18.
+  - Recommended: Use Node.js 18.17.1 (specified in `.nvmrc`)
+  - Use [nvm](https://github.com/nvm-sh/nvm) to manage Node versions:
+    ```bash
+    nvm install 18.17.1
+    nvm use 18.17.1
+    ```
 - **SharePoint Online**: Target environment
-- **Global installations**:
+- **Global installations** (after setting correct Node version):
   ```bash
   npm install -g gulp-cli
   npm install -g yo
@@ -138,6 +145,22 @@ To customize which elements become transparent, edit the `_injectCustomStyles()`
 `src/extensions/transparentListBackground/TransparentListBackgroundApplicationCustomizer.ts`
 
 ## Troubleshooting
+
+### Issue: "NodeJS version does not meet requirements"
+
+**Solution**: 
+- You MUST use Node.js version 16.13+ or 18.17.1+
+- Node.js v19 and higher are NOT supported by SPFx 1.18.2
+- Install nvm (Node Version Manager):
+  ```bash
+  # Install nvm (Linux/Mac)
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+  
+  # Use the project's Node version
+  nvm install
+  nvm use
+  ```
+- Alternatively, download Node 18.17.1 from [nodejs.org](https://nodejs.org/)
 
 ### Issue: Styles Not Applying
 
