@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/component-manifest.schema.json",
+  "id": "e5c6d7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f",
+  "alias": "TransparentListBackgroundApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "safeWithCustomScriptDisabled": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "Transparent List Background" },
+    "description": { "default": "Makes SharePoint list view backgrounds transparent" },
+    "officeFabricIconFontName": "Page",
+    "properties": {}
+  }]
+}
