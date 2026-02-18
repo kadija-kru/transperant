@@ -1,0 +1,14 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.18.2",
+    "libraryName": "transparent-list-background",
+    "libraryId": "a8e5b6c4-d9f1-4e8a-b2c3-7f6d8e9a1b2c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "transparent-list-background",
+    "solutionShortDescription": "transparent-list-background description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension"
+  }
+}

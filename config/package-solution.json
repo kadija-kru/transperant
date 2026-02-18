@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "transparent-list-background-client-side-solution",
+    "id": "a8e5b6c4-d9f1-4e8a-b2c3-7f6d8e9a1b2c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Makes SharePoint list view backgrounds transparent"
+      },
+      "longDescription": {
+        "default": "Application customizer that injects custom CSS to make SharePoint list view backgrounds transparent"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "transparent-list-background Feature",
+        "description": "The feature that activates transparent list backgrounds",
+        "id": "b9f6c7d5-e0a2-4f9b-c4d6-8a7e9b0c1d2e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/transparent-list-background.sppkg"
+  }
+}
